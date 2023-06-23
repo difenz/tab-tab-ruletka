@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="https://raw.githubusercontent.com/Agezao/confetti-js/master/dist/index.min.js"></script> -->
+    <script src="confetti.min.js"></script>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="./Logo.svg" alt="" />
+    </div>
+
+    <div class="app">
+      <img class="pointer" src="IMG/pointer.png" alt="" />
+      <div class="scope">
+        <ul class="list"></ul>
+      </div>
+
+      <button id="start-button" onclick="start()" class="start">Выиграть</button>
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
